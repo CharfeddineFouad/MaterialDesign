@@ -9,21 +9,6 @@ public class RecyclerItem {
      String Nom ;
     int Img ;
 
-    String prenom ;
-
-    String dfgdfg ;
-
-    public void setImg(int img) {
-        Img = img;
-    }
-
-    public String getPrenom() {
-        return prenom;
-    }
-
-    public void setPrenom(String prenom) {
-        this.prenom = prenom;
-    }
 
     public RecyclerItem(String nom, int img) {
         Nom = nom;
