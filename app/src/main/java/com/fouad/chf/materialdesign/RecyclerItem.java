@@ -20,9 +20,7 @@ public class RecyclerItem {
         return Nom;
     }
 
-    public int getImg() {
-        return Img;
-    }
+
 
 
 
