@@ -9,6 +9,15 @@ public class RecyclerItem {
      String Nom ;
     int Img ;
 
+    String prenom ;
+
+    public String getPrenom() {
+        return prenom;
+    }
+
+    public void setPrenom(String prenom) {
+        this.prenom = prenom;
+    }
 
     public RecyclerItem(String nom, int img) {
         Nom = nom;
