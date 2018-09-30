@@ -11,6 +11,12 @@ public class RecyclerItem {
 
     String prenom ;
 
+    String dfgdfg ;
+
+    public void setImg(int img) {
+        Img = img;
+    }
+
     public String getPrenom() {
         return prenom;
     }
